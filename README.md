@@ -1,5 +1,23 @@
 # PhysicalColors
+
 A Mathematica package that provides better visible spectrum and blackbody radiation color.
+
+## Requirements
+
+Mathematica or free [Wolfram Engine](https://www.wolfram.com/engine/). Should be compatible for all modern versions (8.0+).
+
+## Installation
+Install with:
+
+```Mathematica
+PacletInstall["https://github.com/wjxway/PhysicalColors/releases/download/0.1.0/PhysicalColor-0.1.0.paclet"]
+```
+
+If you are using versions with paclet functionalities.
+
+If you are using older versions, please download the **PhysicalColor.wl** file directly, rename it to **PhysicalColor.m**, open Mathematica and execute ```SystemOpen@FileNameJoin[{$UserBaseDirectory,"Applications"}]```, then create a folder named as PhysicalColor under this directory and drop the .m file inside.
+
+## Functions
 
 This pacakge contains three functions:
 
@@ -12,6 +30,7 @@ This pacakge contains three functions:
 **TemperatureIntensity**[*temp*] returns relative light intensity of a blackbody at temperature *temp*.
 
 ----
+### MISC
 
 Data for the first two functions are directly imported from CIE 1931 standard.
 
