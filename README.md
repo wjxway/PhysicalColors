@@ -34,6 +34,6 @@ This pacakge contains three functions:
 
 Data for the first two functions are directly imported from CIE 1931 standard.
 
-Data for the last two is imported from [this place](http://www.vendian.org/mncharity/dir3/blackbody/), which used CIE 1931 2 degree CMFs with Judd Vos corrections, thanks a lot @Mitchell Charity!
+Data for the last two is imported from [this place](http://www.vendian.org/mncharity/dir3/blackbody/), which used CIE 1931 2 degree CMFs with Judd Vos corrections and D65 white point, thanks a lot @Mitchell Charity!
 
 All data are interpolated based on physical rules so that they could accept data from 0 to Infinity.
