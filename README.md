@@ -19,13 +19,13 @@ If you are using older versions, please download the **PhysicalColor.wl** file d
 
 ## Functions
 
-This pacakge contains three functions:
+This pacakge contains four functions:
 
-**SpectrumExcitation**[*wvl*] which returns the linear XYZ excitation of light at wavelength *wvl*.
+**SpectrumExcitation**[*wvl*] returns the linear XYZ excitation of light at wavelength *wvl*.
 
-**SpectrumColor**[*wvl*] which returns XYZColor of light at wavelength *wvl*.
+**SpectrumColor**[*wvl*] returns XYZColor of light at wavelength *wvl*.
 
-**TemperatureColor**[*temp*] which returns RGBColor of a blackbody at temperature *temp*.
+**TemperatureColor**[*temp*] returns RGBColor of a blackbody at temperature *temp*.
 
 **TemperatureIntensity**[*temp*] returns relative light intensity of a blackbody at temperature *temp*.
 
