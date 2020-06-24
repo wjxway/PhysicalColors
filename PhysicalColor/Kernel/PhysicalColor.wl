@@ -51,7 +51,7 @@ TagBox[
 RowBox[{
 RowBox[{"-", "6.17373349339735`*^16"}], "+", 
 RowBox[{"5.823433373349338`*^12", " ", "temp"}]}],
-Short[#, 2]& ]\),$TempIntensityRaw[temp]]];
+Short[#, 2]& ]\),$TempIntensityInterpolation[temp]]];
 
 
 End[];
